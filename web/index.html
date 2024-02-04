@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>AMANS CALCULATOR</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+
+body {
+  font-size: 40px;
+  text-align:center;
+  background: linear-gradient(to right,  hsla(92, 19%, 77%, 1));
+}
+
+h1,h3{
+color: white;
+margin:15px;
+}
+input, button {
+  font-size:40px;
+  color: white;
+  border-radius: 5%;
+  background-color: black;
+  border: 2px solid white;
+}
+
+img{
+width: 20%;
+height:20%;
+margin-top: 20px;
+}
+img:hover{
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+   transform: scale(1.1); 
+}
+
+</style>
+        
+    </head>
+    <body> 
+        <img alt="" src="output3.png.png"> 
+        <!--<div  style="width:480px"><iframe allow="fullscreen" frameBorder="0" height="320" src="https://giphy.com/embed/u2wg2uXJbHzkXkPphr/video" width="480"></iframe></div>-->
+         <!--<h1>Hello G, kyaa haal hai !</h1>-->
+         
+        
+        <form action="myservlet" method="get">
+            <input name="firstnumber">
+            <input name="2ndnumber">
+            <br><!-- comment --><!-- comment -->
+            <button name="btn1" value="1"> + </button><!-- comment -->
+            <button name="btn1" value="2"> - </button><!-- comment -->
+            <button name="btn1" value="3"> * </button><!-- comment -->
+            <button name="btn1" value="4"> / </button><!-- comment -->
+            <button name="btn1" value="5"> % </button><!-- comment -->
+            
+            
+        </form>
+    </body>
+</html>
